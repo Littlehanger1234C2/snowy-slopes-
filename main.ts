@@ -512,6 +512,11 @@ function ThemeSong () {
     music.rest(music.beat(BeatFraction.Quarter))
     music.playTone(294, music.beat(BeatFraction.Quarter))
     music.rest(music.beat(BeatFraction.Quarter))
+    music.playTone(147, music.beat(BeatFraction.Quarter))
+    music.rest(music.beat(BeatFraction.Quarter))
+    music.playTone(147, music.beat(BeatFraction.Quarter))
+    music.rest(music.beat(BeatFraction.Quarter))
+    music.playTone(147, music.beat(BeatFraction.Half))
     pause(100)
     music.rest(music.beat(BeatFraction.Half))
 }
