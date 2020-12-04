@@ -536,7 +536,7 @@ function ResetSpeeds () {
 info.onLifeZero(function () {
     game.showLongText("You went " + Math.round(distance) + " feet!", DialogLayout.Center)
     music.powerDown.play()
-    game.over(false)
+    game.over(false, effects.confetti)
 })
 function LaunchRabbit22 () {
     Rabbit = sprites.create(img`
